@@ -43,11 +43,6 @@ const BOOKS = [
     url: "https://ia801801.us.archive.org/12/items/aquidate-at-tawhid-fawzan/%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%20-%20%D9%83%D8%AA%D8%A7%D8%A8%20%D9%84%D9%84%D8%B4%D9%8A%D8%AE%20%D8%B5%D8%A7%D9%84%D8%AD%20%D8%A7%D9%84%D9%81%D9%88%D8%B2%D8%A7%D9%86%20-%20%D8%A3%D8%AB%D8%A7%D8%A8%D9%87%20%D8%A7%D9%84%D9%84%D9%87..pdf"
   },
   { 
-    title: "شرح الأصول الثلاثة", 
-    description: "توضيح للأصول التي يجب على كل مسلم معرفتها.",
-    url: "https://ia803201.us.archive.org/10/items/alosolalthalathah/3osol.pdf"
-  },
-  { 
     title: "الإرشاد إلى صحيح الاعتقاد", 
     description: "كتاب في الرد على أهل الشرك والإلحاد.",
     url: "https://dn710109.ca.archive.org/0/items/0232-pdf/0232%20pdf%20%D8%A7%D9%84%D8%A5%D8%B1%D8%B4%D8%A7%D8%AF%20%D8%A5%D9%84%D9%89%20%D8%B5%D8%AD%D9%8A%D8%AD%20%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D9%82%D8%A7%D8%AF%20%D9%88%D8%A7%D9%84%D8%B1%D8%AF%20%D8%B9%D9%84%D9%89%20%D8%A3%D9%87%D9%84%20%D8%A7%D9%84%D8%B4%D8%B1%D9%83%20%D9%88%D8%A7%D9%84%D8%A5%D9%84%D8%AD%D8%A7%D8%AF%20%D9%84%D9%84%D8%B4%D9%8A%D8%AE%20%D8%A7%D9%84%D9%81%D9%88%D8%B2%D8%A7%D9%86.pdf"
@@ -267,7 +262,7 @@ export default function App() {
                   rel="noopener noreferrer"
                   className="mt-auto flex items-center gap-2 text-[#5A5A40] font-bold hover:underline"
                 >
-                  <span>تحميل الكتاب</span>
+                  <span>اقرأ الكتاب</span>
                   <ExternalLink size={16} />
                 </a>
               </motion.div>
